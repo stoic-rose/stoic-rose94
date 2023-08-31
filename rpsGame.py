@@ -1,9 +1,9 @@
 import random
 rpsChoices = ["Rock","Paper","Scissors"]
-playerPoints = 0
-cpuPoints = 0
+
 def rpsGame():
-    
+    global playerPoints
+    global cpuPoints
     cpuDecision = random.choice(rpsChoices)
     playerDecision = input('Rock (0), Paper (1) or Scissors? (2): ')
     playerDecision = int (playerDecision)
@@ -59,5 +59,7 @@ def rpsGame():
     else:
         print('Invalid input.')
         rpsGame();
+playerPoints = 0
+cpuPoints = 0
+
 rpsGame();
-    
