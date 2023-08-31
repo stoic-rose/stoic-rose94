@@ -1,6 +1,7 @@
+kToMiles = 0.6214
 def main():
-    km = input('How many kilometers?: ')
-    km = float (km)
-    print(km * 0.621371)
+    
+    km = float(input('How many kilometers?: '))
+    print(km * kToMiles)
     
 main();
