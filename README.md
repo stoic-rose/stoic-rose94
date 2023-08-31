@@ -1,3 +1,2 @@
-hilda moment
 she/her
-i make polyrhythm mania charts and draw a ton
+hi! im hilda. i make games and draw and like 'puters
